@@ -12,9 +12,16 @@ CSV público via GitHub : https://raw.githubusercontent.com/owid/covid-19-data/m
 Colunas principais: location, date, new cases, t otal deaths, people_vaccinated, population
 Filtrar por paises e periodo antes de enviar ao Snowflake (arquivo tem 400 mil linhas)
 8 Etapas
-Criar conta Snowflake > 2. Preparar ambiente local > 3. Configurar secrets.toml > 4. Criar covid_dashboard.py > 5. Implementar as 4
-visualizacoes -> 6. Testar localmente > 7. Publicar no GitHub > 8. Deploy no Streamlit Community Cloud
-4 Visualizações Obrigatórias
+1. Criar conta Snowflake
+2. Preparar ambiente local
+3. Configurar secrets.toml
+4. Criar covid_dashboard.py
+5. Implementar as 4 visualizacoes 
+6. Testar localmente 
+7. Publicar no GitHub 
+8. Deploy no Streamlit Community Cloud 
+
+**4 Visualizações Obrigatórias:**
 Linha - Evolucao de casos novos por pais
 Barras - Total de obitos por pais
 Pizza - Proporção de vacinados (1 dose)
